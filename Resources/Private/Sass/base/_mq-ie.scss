@@ -40,9 +40,9 @@ $old-ie: false !default;
 @viewport { width : device-width; }
 
 // fix WP8 viewport bug
-@include respond-max(400px) {
-	@-ms-viewport {
-		width: 320px;
-	}
-}
+// @include respond-max(400px) {
+// 	@-ms-viewport {
+// 		width: 320px;
+// 	}
+// }
 

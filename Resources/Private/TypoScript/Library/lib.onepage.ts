@@ -31,6 +31,14 @@ lib.onepage {
 							stdWrap.htmlSpecialChars = 1
 							typolink.title.field = title // subtitle
 						}
+							# External URL
+						3 = TEXT
+						3 {
+							field = nav_title // title
+							typolink.parameter.field = url
+							typolink.extTarget.field = target
+							stdWrap.htmlSpecialChars = 1
+						}
 					}
 				}
 				wrap = <ul class="navigation">|</ul>
@@ -57,7 +65,7 @@ lib.onepage {
 				wrap.insertData = 1
 			}
 		}
-		
+
 		wrap = <main role="main">|</main>
 	}
 }
