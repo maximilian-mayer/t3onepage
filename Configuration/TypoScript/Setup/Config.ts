@@ -19,8 +19,7 @@ config {
 
 	# RealURL
 	simulateStaticDocuments = 0
-	baseURL = {$plugin.tx_t3onepage.url}
-	absRefPrefix = {$plugin.tx_t3onepage.absRefPrefix}
+	absRefPrefix = /
 	tx_realurl_enable = {$plugin.tx_t3onepage.extensions.realurl}
 	prefixLocalAnchors = all
 	prefixLocalAnchors >
