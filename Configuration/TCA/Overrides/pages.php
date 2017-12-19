@@ -15,6 +15,7 @@ $newPageColumns = array(
 		'label' => 'LLL:EXT:t3onepage/Resources/Private/Language/locallang_db.xlf:pages.css_class',
 		'config' => array(
 			'type' => 'select',
+			'renderType' => 'selectSingle',
 			'items' => array(
 				array('LLL:EXT:t3onepage/Resources/Private/Language/locallang_db.xlf:pages.css_class.none', ''),
 				array('LLL:EXT:t3onepage/Resources/Private/Language/locallang_db.xlf:pages.css_class.dark-section', 'dark-section'),
